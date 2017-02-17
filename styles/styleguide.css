@@ -1,0 +1,61 @@
+ol {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+ol li {
+  border : 1px solid #000;
+  width : 160px;
+  margin : 6px;
+  border-radius: 10px;
+}
+
+li img {
+  width : 100%;
+}
+
+#colors {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content : center;
+  text-align : center;
+ text-transform: uppercase;
+ font-size: 2em;
+
+}
+
+#colors li {
+  height : 160px;
+  width : 160px;
+  border-radius: 20px;
+  color : #fff;
+  display: flex;
+  align-items: center;
+justify-content: center;
+margin: 6px;
+}
+
+#color-1 {
+ background-color: #f4c32e;
+}
+
+#color-2 {
+ background-color: #efce69;
+}
+
+#color-3 {
+ background-color: #f9e9b8;
+}
+
+#color-4 {
+ background-color: #014d6b;
+}
+#color-5 {
+ background-color: #003144;
+}
+#color-6 {
+ background-color: #000000;
+}
